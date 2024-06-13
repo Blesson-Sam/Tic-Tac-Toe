@@ -93,6 +93,10 @@ function checkGameOver()
             box[position[1]].classList.add("win");
             box[position[2]].classList.add("win");
         }
+        else 
+        {
+            newGame.classList.add("active");
+        }
     });
     if(answer!=="")
     {
